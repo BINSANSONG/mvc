@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="EUC-KR">
+  <title>Insert title here</title>
+</head>
+<body>
+  <h1>JOIN</h1>
+
+  <form method="post" action="register">
+    <table>
+      <tbody>
+        <tr>
+          <td> <label for="rid">ID</label> </td> <td> <input id="rid" type="text" name="id" value="" required> </td>
+        </tr>
+        <tr>
+          <td> <label for="rpwd">PWD</label> </td> <td> <input id="rpwd" type="password" name="pwd" value="" required> </td>
+        </tr>
+        <tr>
+          <td> <label for="rname">NAME</label> </td> <td><input id="rname" type="text" name="name" value="" required></td>
+        </tr>
+        <tr>
+          <td> <label for="rtel">TEL</label> </td> <td><input id="rtel" type="tel" name="tel"  value="" pattern="[0-1]{3}-[0-9]{4}-[0-9]{4}" title="###-####-####" placeholder="010-1234-1234" required></td>
+        </tr>
+        <tr>
+          <td> <label for="remail">EMAIL</label> </td> <td><input id="remail" type="email" name="email" value="" placeholder="qlstks@naver.com" required></td>
+        </tr>
+      </tbody>
+    </table>
+    <input type="submit" name="" value="join">
+  </form>
+</body>
+</html>
