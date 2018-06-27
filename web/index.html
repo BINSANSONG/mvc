@@ -211,7 +211,7 @@ function register(f) {
     f.method='POST';
     f.action='register';
     f.submit();
-    
+
   }
 
 }
@@ -231,11 +231,11 @@ function register(f) {
         </div>
       </div>
       <div class="form-group">
-        <input type="text" class="form-control" name="id" placeholder="ID" required="required" onblur="checkID();">
+        <input type="text" class="form-control" name="id" placeholder="ID" required="required" onblur="checkID();" onkeyup="checkID();">
         <div class="text-center idCheck"></div>
       </div>
       <div class="form-group">
-        <input type="email" class="form-control" name="email" placeholder="Email" required="required" onblur="checkEmail();">
+        <input type="email" class="form-control" name="email" placeholder="Email" required="required" onblur="checkEmail();" onkeyup="checkEmail();">
         <div class="text-center emailCheck"></div>
       </div>
       <div class="form-group">
