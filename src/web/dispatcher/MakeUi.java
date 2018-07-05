@@ -17,6 +17,8 @@ public class MakeUi {
 			request.setAttribute("center", "center");
 		}else if(view.equals("login")) {
 			request.setAttribute("center", "login");
+		}else if(view.equals("weatherweather")) {
+			request.setAttribute("center", "weather/weather");
 		}
 	
 	}

@@ -54,6 +54,13 @@
             <span class="nav-link-text">PRODUCT LIST</span>
           </a>
         </li>
+        
+          <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Components">
+          <a class="nav-link" href="main.kakao?page=weatherweather">
+            <i class="fa fa-fw fa-wrench"></i>
+            <span class="nav-link-text">WEATHER</span>
+          </a>
+        </li>
       </ul>
       <ul class="navbar-nav sidenav-toggler">
         <li class="nav-item">

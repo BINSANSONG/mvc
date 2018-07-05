@@ -21,7 +21,10 @@ public class Sql {
 	public static String selectProduct = 
 	"SELECT * FROM T_PRODUCT WHERE ID=?";
 	public static String selectallProduct = 
-	"SELECT * FROM T_PRODUCT";	
+	"SELECT * FROM T_PRODUCT";
+	
+	public static String selectallHanRiver =
+			"SELECT * FROM HANRIVER";
 }
 
 
