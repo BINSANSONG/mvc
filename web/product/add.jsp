@@ -17,7 +17,7 @@
         <label for="exampleInputPassword1">IMG</label>
         <input class="form-control" id="exampleInputPassword1" type="file" placeholder="img.jpg" name="imgname">
       </div>
-      <input class="btn btn-primary btn-block" type="button" value="Register">
+      <input class="btn btn-primary btn-block" type="submit" value="Register">
     </form>
   </div>
 </div>

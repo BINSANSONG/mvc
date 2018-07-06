@@ -19,6 +19,9 @@
   <link href="vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
   <!-- Custom styles for this template-->
   <link href="css/sb-admin.css" rel="stylesheet">
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+  <script src="https://code.highcharts.com/modules/exporting.js"></script>
+  <script src="https://code.highcharts.com/modules/export-data.js"></script>
 </head>
 
 <body class="fixed-nav sticky-footer bg-dark" id="page-top">
@@ -59,6 +62,12 @@
           <a class="nav-link" href="main.kakao?page=weatherweather">
             <i class="fa fa-fw fa-wrench"></i>
             <span class="nav-link-text">WEATHER</span>
+          </a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Charts">
+          <a class="nav-link" href="main.kakao?page=chart">
+            <i class="fa fa-fw fa-area-chart"></i>
+            <span class="nav-link-text">CHART</span>
           </a>
         </li>
       </ul>

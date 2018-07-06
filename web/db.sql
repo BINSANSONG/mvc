@@ -15,3 +15,6 @@ CREATE TABLE T_PRODUCT(
 	REGDATE DATE,
 	IMGNAME VARCHAR2(30)
 );
+
+insert into T_USER values ('id01','aa','bb');
+select * from T_USER

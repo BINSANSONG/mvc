@@ -33,8 +33,9 @@ public class ProductServlet extends HttpServlet {
 		String cmd = request.getParameter("cmd");
 		String next = "main.jsp";
 		MultipartRequest mRequest = null; //cos.jar 라이브러리 class
-		String dir = "C:\\Users\\student\\Dropbox\\블록체인\\js\\day08\\web\\img";
+		String dir = "C:\\Users\\student\\git\\mvc2\\web\\img";
 		int size = 1024*1024*1024;
+		System.out.println(cmd);
 		if(cmd.equals("add")) {
 			mRequest = new MultipartRequest(request, dir,size,"utf-8");
 			String name = mRequest.getParameter("name");

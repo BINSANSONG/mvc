@@ -8,7 +8,7 @@ import java.util.ArrayList;
 public abstract class Biz<T,V> {
 	String user = "db";
 	String password = "db";
-	String url = "jdbc:oracle:thin:@127.0.0.1:1521:XE";
+	String url = "jdbc:oracle:thin:@70.12.110.172:1521:XE";
 	
 	public Biz() {
 		try {

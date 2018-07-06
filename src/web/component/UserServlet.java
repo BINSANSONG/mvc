@@ -35,7 +35,6 @@ public class UserServlet extends HttpServlet {
 			ArrayList<User> list = null;
 			try {
 				list = biz.get();
-				request.setAttribute("navi", "");
 				request.setAttribute("userlist", list);
 				request.setAttribute("center", "user/list");
 			} catch (Exception e) {
